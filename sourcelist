@@ -1,0 +1,37 @@
+#中国科技大学 
+deb http://debian.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ precise-backports restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+#tsinghua
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise main multiverse restricted universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise-security main multiverse restricted universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise main multiverse restricted universe
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ oneiric-security main multiverse restricted universe
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ oneiric-updates main multiverse restricted universe
+
+#Ubuntu 官方更新服务器（欧洲，此为官方源，国内较慢，但无同步延迟问题，电信、移动/铁通、联通等公网用户可以使用)：
+deb http://archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse
+#Ubuntu官方提供的其他软件（第三方闭源软件等）：
+deb http://archive.canonical.com/ubuntu/ precise partner
+deb http://extras.ubuntu.com/ubuntu/ precise main
